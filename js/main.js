@@ -20,5 +20,5 @@ function removeShow() {
     tabContentItems.forEach(item => item.classList.remove('show'));
 }
 
-// Listen for tab click
+// Listen for tab click - 탭을 '클릭'하면 selectItem작동
 tabItems.forEach(item => item.addEventListener('click', selectItem));
